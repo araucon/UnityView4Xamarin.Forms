@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="UnityXamarin.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:UnityXamarin;assembly=UnityXamarin">
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="Enter color in hex format #FFFFFF" />
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="HexColorEntry" HorizontalOptions="FillAndExpand">
+                <Entry.Keyboard>
+                    <Keyboard x:FactoryMethod="Create">
+                        <x:Arguments>
+                            <KeyboardFlags>None</KeyboardFlags>
+                        </x:Arguments>
+                    </Keyboard>
+                </Entry.Keyboard>
+            </Entry>
+
+            <Button Text="Change Color"  Clicked="Button_Clicked"/>
+        </StackLayout>
+        <views:Unity3dView
+            x:Name="UnityView"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+
+</ContentPage>
