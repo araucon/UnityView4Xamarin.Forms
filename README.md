@@ -20,7 +20,4 @@ Currently, Xamarin.iOS is not implemented, but can be found [here](https://githu
 # Support
 Every helping hand is welcome. There are Issues already tagged as help wanted, but you also can open a new issue, tell what you need or what you could implement. 
 If you can't support with time, but with money, you find me at [patreon](https://www.patreon.com/FlorianAuer) and [paypal](https://paypal.me/FlorianAuerNET?locale.x=de_DE).
-
-<br/>
-  <img src="https://user-images.githubusercontent.com/9354897/111032579-33986a00-840d-11eb-9b9e-cc2903a32718.png" href="https://paypal.me/FlorianAuerNET?locale.x=de_DE" width="50px" height="50px"/>  
-  <img src="https://betternotstop.com/wp-content/uploads/2018/03/Patreon.jpg" href="https://www.patreon.com/FlorianAuer" height="50px"/>
+  
